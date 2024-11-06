@@ -1,18 +1,14 @@
 import Image from "next/image";
-import { FC, PropsWithChildren } from "react";
-import { FaFacebook, FaInstagram, FaYoutube } from "react-icons/fa";
+import { FC } from "react";
+import CircleBG from "../CircleBg";
+import { IconType } from "react-icons";
 
-const items = ["Men", "Women", "Brand", "Map", "Contact"];
-
-const CircleBG: FC<PropsWithChildren> = ({ children }) => {
-  return (
-    <div className="flex cursor-pointer hover:bg-red-600 rounded-full bg-red-700 w-10 h-10 items-center justify-center">
-      {children}
-    </div>
-  );
+type DesktopNavbarProps = {
+  items: string[];
+  socials: IconType[];
 };
 
-const DesktopNavbar = () => {
+const DesktopNavbar: FC<DesktopNavbarProps> = ({ items, socials }) => {
   return (
     <div className="bg-gradient-to-r from-black to-red-700 py-4 flex justify-between shadow-md shadow-black w-full">
       <div className="w-[80%] flex text-black items-center justify-between m-auto">
@@ -34,15 +30,11 @@ const DesktopNavbar = () => {
           ))}
         </ul>
         <div className="flex items-center gap-2">
-          <CircleBG>
-            <FaInstagram size={20} color="white" />
-          </CircleBG>
-          <CircleBG>
-            <FaFacebook size={20} color="white" />
-          </CircleBG>
-          <CircleBG>
-            <FaYoutube size={20} color="white" />
-          </CircleBG>
+          {socials.map((Icon, index) => (
+            <CircleBG key={index}>
+              {<Icon size={20} color="#b91c1c" />}
+            </CircleBG>
+          ))}
         </div>
       </div>
     </div>

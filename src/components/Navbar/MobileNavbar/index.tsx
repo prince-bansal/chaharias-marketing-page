@@ -2,21 +2,17 @@
 
 import { cn } from "@/lib/cn";
 import Image from "next/image";
-import { FC, PropsWithChildren, useEffect, useState } from "react";
-import { FaFacebook, FaInstagram, FaYoutube } from "react-icons/fa";
+import { FC, useEffect, useState } from "react";
+import { IconType } from "react-icons";
 import { IoCloseSharp, IoMenu } from "react-icons/io5";
+import CircleBG from "../CircleBg";
 
-const items = ["Men", "Women", "Brand", "Map", "Contact"];
-
-const CircleBG: FC<PropsWithChildren> = ({ children }) => {
-  return (
-    <div className="flex cursor-pointer hover:bg-red-600 rounded-full bg-red-700 w-7 h-7 items-center justify-center">
-      {children}
-    </div>
-  );
+type MobileNavbarProps = {
+  items: string[];
+  socials: IconType[];
 };
 
-const MobileNavbar = () => {
+const MobileNavbar: FC<MobileNavbarProps> = ({ items, socials }) => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
 
   useEffect(() => {
@@ -82,15 +78,11 @@ const MobileNavbar = () => {
               ))}
             </ul>
             <div className="flex items-center gap-2">
-              <CircleBG>
-                <FaInstagram size={14} color="white" />
-              </CircleBG>
-              <CircleBG>
-                <FaFacebook size={14} color="white" />
-              </CircleBG>
-              <CircleBG>
-                <FaYoutube size={14} color="white" />
-              </CircleBG>
+              {socials.map((Icon, index) => (
+                <CircleBG key={index}>
+                  {<Icon size={20} color="#b91c1c" />}
+                </CircleBG>
+              ))}
             </div>
           </div>
         </div>
