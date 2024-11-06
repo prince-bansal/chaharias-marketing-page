@@ -7,6 +7,9 @@ export const metadata: Metadata = {
   title: "Chaharias - Celebrate in Style!",
   description:
     "Find your perfect festive outfit at Chaharias. Timeless fashion for every celebration.",
+  openGraph: {
+    images: ["/assets/logo.svg"],
+  },
 };
 
 export default function RootLayout({
