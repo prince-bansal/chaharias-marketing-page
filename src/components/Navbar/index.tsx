@@ -4,7 +4,15 @@ import DesktopNavbar from "./DesktopNavbar";
 import MobileNavbar from "./MobileNavbar";
 import { FaFacebook, FaInstagram, FaYoutube } from "react-icons/fa";
 
-const items = ["Men", "Women", "Brand", "Map", "Contact"];
+const items = [
+  "Home",
+  "About us",
+  "Men",
+  "Women",
+  "Home Furnishing",
+  "Brands",
+  "Contact",
+];
 const socials = [FaInstagram, FaFacebook, FaYoutube];
 
 const Navbar = () => {
