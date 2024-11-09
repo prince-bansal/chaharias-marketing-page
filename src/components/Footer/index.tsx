@@ -1,20 +1,20 @@
 import Image from "next/image";
 import React from "react";
 
-const socials = [
-  {
-    name: "Facebook",
-    link: "#",
-  },
-  {
-    name: "Instagram",
-    link: "#",
-  },
-  {
-    name: "LinkedIn",
-    link: "#",
-  },
-];
+// const socials = [
+//   {
+//     name: "Facebook",
+//     link: "#",
+//   },
+//   {
+//     name: "Instagram",
+//     link: "#",
+//   },
+//   {
+//     name: "LinkedIn",
+//     link: "#",
+//   },
+// ];
 
 const QuickLinks = [
   "Men",
