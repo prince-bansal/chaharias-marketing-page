@@ -44,6 +44,7 @@ const Brands = () => {
       <div className="w-full">
         <Swiper
           speed={3000}
+          loop={true}
           autoplay={{
             delay: 0,
             waitForTransition: true,

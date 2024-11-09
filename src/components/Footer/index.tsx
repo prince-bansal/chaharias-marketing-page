@@ -25,7 +25,7 @@ const QuickLinks = [
 ];
 const Footer = () => {
   return (
-    <div className="bg-stone-900 text-gray-300 pb-4">
+    <div className="bg-stone-900 text-gray-300">
       <div className="w-[80%] grid gap-10 lg:justify-items-center grid-cols-1 lg:grid-cols-3  justify-between m-auto py-20">
         <div className="">
           <Image
