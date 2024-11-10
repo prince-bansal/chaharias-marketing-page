@@ -1,7 +1,8 @@
+import { StaticImageData } from "next/image";
+
 export type IProduct = {
   id: number;
-  image: string;
+  imagePath: StaticImageData;
   title: string;
-  price: number;
-  discountPrice: number;
+  description: string;
 };

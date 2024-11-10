@@ -1,3 +1,12 @@
+import Sarees from "../../public/assets/catalogue/sarees.jpg";
+import Suits from "../../public/assets/catalogue/suits.jpg";
+import Lehenga from "../../public/assets/catalogue/lehanga.jpg";
+import Accessories from "../../public/assets/catalogue/accessories.jpg";
+import DressMaterial from "../../public/assets/catalogue/dress.jpg";
+import SuitingShirting from "../../public/assets/catalogue/suiting-shirting.jpg";
+import Woolen from "../../public/assets/catalogue/woolen.jpg";
+import Handloom from "../../public/assets/catalogue/handloom.jpg";
+
 export const reviews = [
   {
     id: 1,
@@ -85,61 +94,56 @@ export const images = [
   "https://youthincmag.com/wp-content/uploads/2019/04/Wedding-trends-pinterest.jpg",
 ];
 
-// export const Products = [
-//   "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=3276&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-//   "https://plus.unsplash.com/premium_photo-1682095757120-c9abb908ed60?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-//   "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?q=80&w=3456&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-// ];
-
-export const Products = [
+export const CatalogData = [
   {
-    id: 4,
-    image:
-      "https://plus.unsplash.com/premium_photo-1682095757120-c9abb908ed60?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    title: "Men's Tshirt",
-    price: 999,
-    discountPrice: 3930,
+    id: 1,
+    title: "Sarees",
+    description: "Timeless sarees for every occasion.",
+    imagePath: Sarees,
   },
-
   {
     id: 2,
-    image:
-      "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=3276&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    title: "Men's Tshirt",
-    price: 999,
-    discountPrice: 3930,
+    title: "Suits",
+    description:
+      "Beautiful and comfortable suits for everyday and special days.",
+    imagePath: Suits,
   },
   {
     id: 3,
-    image:
-      "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=3276&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    title: "Men's Tshirt",
-    price: 999,
-    discountPrice: 3930,
+    title: "Lehenga",
+    description:
+      "Stunning lehengas to make your celebrations even more special.",
+    imagePath: Lehenga,
   },
-
+  {
+    id: 4,
+    title: "Accessories",
+    description: "Add the perfect finishing touch with our trendy accessories.",
+    imagePath: Accessories,
+  },
   {
     id: 5,
-    image:
-      "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?q=80&w=3456&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    title: "Men's Tshirt",
-    price: 999,
-    discountPrice: 3930,
+    title: "Dress Material",
+    description: "High-quality fabrics to stitch your dream outfit.",
+    imagePath: DressMaterial,
   },
   {
     id: 6,
-    image:
-      "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=3276&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    title: "Men's Tshirt",
-    price: 999,
-    discountPrice: 3930,
+    title: "Suiting & Shirting",
+    description:
+      "Tailored for perfection—premium fabrics for the sharpest look.",
+    imagePath: SuitingShirting,
   },
   {
-    id: 1,
-    image:
-      "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?q=80&w=3456&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    title: "Men's Tshirt",
-    price: 999,
-    discountPrice: 3930,
+    id: 7,
+    title: "Woolen",
+    description: "Stay warm and stylish with our cozy woolen collection.",
+    imagePath: Woolen,
+  },
+  {
+    id: 8,
+    title: "Handloom",
+    description: "Handcrafted beauty that brings tradition to your wardrobe.",
+    imagePath: Handloom,
   },
 ];
