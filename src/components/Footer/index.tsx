@@ -1,28 +1,8 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
-// const socials = [
-//   {
-//     name: "Facebook",
-//     link: "#",
-//   },
-//   {
-//     name: "Instagram",
-//     link: "#",
-//   },
-//   {
-//     name: "LinkedIn",
-//     link: "#",
-//   },
-// ];
-
-const QuickLinks = [
-  "Men",
-  "Women",
-  "Home Furnishing",
-  "Privacy Policy",
-  "Terms & Conditions",
-];
+const QuickLinks = ["Men", "Women", "Home Furnishing"];
 const Footer = () => {
   return (
     <div className="bg-stone-900 text-gray-300">
@@ -50,6 +30,12 @@ const Footer = () => {
               {link}
             </p>
           ))}
+          <Link className="block" href="privacy-policy">
+            Privacy Policy
+          </Link>
+          <Link className="block" href="terms-conditions">
+            Terms & Conditions
+          </Link>
         </div>
         <div>
           <p className="text-3xl mb-3 text-white">Support</p>

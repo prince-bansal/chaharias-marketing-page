@@ -23,14 +23,11 @@ const brandLogos = [
 ];
 
 const Brands = () => {
-  const { isDesktop, isMobile, isTablet } = useScreenSize();
+  const { isDesktop, isMobile } = useScreenSize();
 
   const noOfSlides = () => {
     if (isMobile) {
       return 1;
-    }
-    if (isTablet) {
-      return 3;
     }
     if (isDesktop) {
       return 4;
