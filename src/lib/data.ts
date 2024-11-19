@@ -10,19 +10,19 @@ import Handloom from "../../public/assets/catalogue/handloom.jpg";
 export const reviews = [
   {
     id: 1,
-    imageUrl: "/assets/testimonials/rahul.svg",
-    person_name: "Rahul Jain",
+    imageUrl: "/assets/testimonials/rajkumar.svg",
+    person_name: "Rajkumar Singh",
     title: "Marketing Director",
     review:
-      "I’ve been shopping at Chaharias for years. The quality and variety they offer is unbeatable",
+      "चहरियास मेरी पसंदीदा दुकान है। यहां की कपड़ों की विविधता और अच्छी सेवा हर बार शॉपिंग को एक शानदार अनुभव बनाती है। मैं इसे जरूर सुझाऊंगा! ",
   },
   {
     id: 2,
-    imageUrl: "/assets/testimonials/sandeep.svg",
-    person_name: "Sandeep Gill",
+    imageUrl: "/assets/testimonials/saroj.svg",
+    person_name: "Smt Saroj Mishra",
     title: "Small Business Owner",
     review:
-      "चाहारियास में हमेशा कुछ नया और अच्छा मिलता है। यहाँ का कपड़ा और डिज़ाइन दोनों ही बेजोड़ हैं। त्यौहार हो या शादी, चाहारियास से खरीदारी करना मुझे हमेशा खुशी देता है।",
+      "I have been shopping at Chaharias for many years. Their collection is always beautiful, and the staff is very helpful. It’s the best place for traditional wear.",
   },
   {
     id: 3,
@@ -87,6 +87,22 @@ export const reviews = [
     title: "E-commerce Manager",
     review:
       "Chaharias always has the latest trends in women’s wear. I can find something stylish without breaking the bank, and the staff is always so helpful",
+  },
+  {
+    id: 11,
+    imageUrl: "/assets/testimonials/rahul.svg",
+    person_name: "Rahul Jain",
+    title: "Marketing Director",
+    review:
+      "I’ve been shopping at Chaharias for years. The quality and variety they offer is unbeatable",
+  },
+  {
+    id: 12,
+    imageUrl: "/assets/testimonials/sandeep.svg",
+    person_name: "Sandeep Gill",
+    title: "Small Business Owner",
+    review:
+      "चाहारियास में हमेशा कुछ नया और अच्छा मिलता है। यहाँ का कपड़ा और डिज़ाइन दोनों ही बेजोड़ हैं। त्यौहार हो या शादी, चाहारियास से खरीदारी करना मुझे हमेशा खुशी देता है।",
   },
 ];
 

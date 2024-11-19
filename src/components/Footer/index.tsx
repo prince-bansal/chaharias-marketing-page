@@ -56,7 +56,9 @@ const Footer = () => {
         </div>
       </div>
       <div className="bg-stone-800 p-3">
-        <p className="text-center">© Copyright 2024 by Chahrias</p>
+        <p className="text-center">
+          © Copyright 2024 by Chaharias. All rights reserved.
+        </p>
       </div>
     </div>
   );
