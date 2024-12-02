@@ -50,7 +50,7 @@ const Testimonials = () => {
                     className="rounded-full w-32 h-32 m-auto mb-3"
                     alt={review.person_name}
                   />
-                  <p className="text-xs lg:text-xl mb-4">{review.review}</p>
+                  <p className="text-sm lg:text-xl mb-4">{review.review}</p>
                   <p className="text-sm lg:text-base"> {review.person_name}</p>
                 </div>
               </SwiperSlide>

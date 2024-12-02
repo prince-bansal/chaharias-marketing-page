@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="w-[80%] grid gap-10 lg:justify-items-center grid-cols-1 lg:grid-cols-3  justify-between m-auto py-20">
         <div className="">
           <Image
-            src={"/assets/logo.svg"}
+            src={"/assets/old-logo.svg"}
             className="w-16 h-16"
             width={200}
             height={200}

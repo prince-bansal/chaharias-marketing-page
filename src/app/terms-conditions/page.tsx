@@ -4,17 +4,15 @@ import Image from "next/image";
 
 const TermsAndConditions = () => {
   return (
-    <div className="w-[60%] m-auto py-20">
-      <p className="text-3xl text-center">Terms and Conditions</p>
+    <div className="w-[90%] lg:w-[80%] m-auto py-10">
+      <p className="text-3xl font-semibold">Terms and Conditions</p>
 
-      <p className="text-gray-500 text-center">
-        [Last updated: November 7, 2024]
-      </p>
+      <p className="text-gray-500">[Last updated: November 7, 2024]</p>
       <Image
         src={TnC}
         width={1500}
         height={1500}
-        className="h-[60vh] rounded-xl shadow-md object-cover my-10 w-full m-auto"
+        className="h-[30vh] lg:h-[70vh] rounded-xl shadow-md object-cover my-10 w-full m-auto"
         alt="Terms and Conditions"
       />
       <p className="text-lg mb-3">
