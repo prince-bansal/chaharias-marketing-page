@@ -1,5 +1,6 @@
 import React from "react";
-import TnC from "../../../public/assets/terms-conditions.jpg";
+// import TnC from "../../../public/assets/terms-conditions.jpg";
+import TnC from "../../../public/assets/2.png";
 import Image from "next/image";
 
 const TermsAndConditions = () => {
@@ -12,7 +13,7 @@ const TermsAndConditions = () => {
         src={TnC}
         width={1500}
         height={1500}
-        className="h-[30vh] lg:h-[70vh] rounded-xl shadow-md object-cover my-10 w-full m-auto"
+        className="h-[26vh] lg:h-[70vh] rounded-xl shadow-md object-cover my-10 w-full m-auto"
         alt="Terms and Conditions"
       />
       <p className="text-lg mb-3">

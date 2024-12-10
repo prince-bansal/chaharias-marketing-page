@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
-import TnC from "../../../public/assets/privacy-policy.jpg";
+// import TnC from "../../../public/assets/privacy-policy.jpg";
+import TnC from "../../../public/assets/1.png";
 
 const PrivacyPolicy = () => {
   return (
@@ -12,7 +13,7 @@ const PrivacyPolicy = () => {
         src={TnC}
         width={1500}
         height={1500}
-        className="h-[30vh] lg:h-[70vh] rounded-xl shadow-md object-cover my-10 w-full m-auto"
+        className="h-[26vh] lg:h-[70vh] rounded-xl shadow-md object-cover my-10 w-full m-auto"
         alt="Terms and Conditions"
       />
       <p className="text-base mb-3">
