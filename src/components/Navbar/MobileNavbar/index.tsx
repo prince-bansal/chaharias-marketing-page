@@ -45,13 +45,13 @@ const MobileNavbar: FC<MobileNavbarProps> = ({ items, socials }) => {
       <div className="flex justify-between w-[90%] m-auto items-center">
         <Link href={"/"} className="flex items-center justify-start gap-2">
           <Image
-            src={"/assets/old-logo.svg"}
-            className="w-10 h-10"
+            src={"/assets/new-logo.png"}
+            className="w-28 scale-150 ml-4 h-auto"
             width={200}
             height={200}
             alt="logo"
           />
-          <p className="text-lg font-bold text-white">Chaharias</p>
+          {/* <p className="text-lg font-bold text-white">Chaharias</p> */}
         </Link>
         <IoMenu size={25} onClick={() => setIsOpen(true)} color="white" />
       </div>
@@ -68,13 +68,12 @@ const MobileNavbar: FC<MobileNavbarProps> = ({ items, socials }) => {
             <div className="flex justify-between items-center">
               <div className="flex items-center gap-2">
                 <Image
-                  src={"/assets/old-logo.svg"}
-                  className="w-10 h-10"
+                  src={"/assets/new-logo.png"}
+                  className="w-28 scale-150 ml-4 h-auto"
                   width={200}
                   height={200}
                   alt="logo"
                 />
-                <p className="text-lg font-bold text-white">Chaharias</p>
               </div>
               <IoCloseSharp
                 size={25}

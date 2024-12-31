@@ -15,8 +15,8 @@ const DesktopNavbar: FC<DesktopNavbarProps> = ({ items, socials }) => {
       <div className="w-[80%] flex text-black items-center justify-between m-auto">
         <Link href={"/"} className="flex items-center justify-start gap-2">
           <Image
-            src={"/assets/old-logo.svg"}
-            className="scale-110 w-32 h-24 mr-auto"
+            src={"/assets/new-logo.png"}
+            className="scale-150 w-40 mr-auto"
             width={400}
             height={400}
             alt="logo"
