@@ -17,8 +17,8 @@ const Card: FC<CardProps> = ({ product }) => {
         src={product.imagePath}
         width={300}
         height={300}
-        placeholder="blur"
         alt="Placeholder"
+        placeholder="blur"
       />
       <div className="py-4">
         <p className="text-xl font-semibold text-center">{product.title}</p>
