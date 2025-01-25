@@ -20,6 +20,9 @@ const brandLogos = [
   "/assets/brands/raymond.svg",
   "/assets/brands/siyaram_s.svg",
   "/assets/brands/sparky.svg",
+  "/assets/brands/s4u.svg",
+  "/assets/brands/vishal-prints.svg",
+  "/assets/brands/subash-sarees.svg",
 ];
 
 const Brands = () => {

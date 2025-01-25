@@ -131,12 +131,7 @@ export const CatalogData = [
       "Stunning lehengas to make your celebrations even more special.",
     imagePath: Lehenga,
   },
-  {
-    id: 4,
-    title: "Accessories",
-    description: "Add the perfect finishing touch with our trendy accessories.",
-    imagePath: Accessories,
-  },
+
   {
     id: 5,
     title: "Dress Material",
@@ -155,6 +150,12 @@ export const CatalogData = [
     title: "Woolen",
     description: "Stay warm and stylish with our cozy woolen collection.",
     imagePath: Woolen,
+  },
+  {
+    id: 4,
+    title: "Accessories",
+    description: "Add the perfect finishing touch with our trendy accessories.",
+    imagePath: Accessories,
   },
   {
     id: 8,
